@@ -65,7 +65,6 @@ homebrew_installed_packages:
   - zsh-history-substring-search
   - fastfetch
   - sshuttle
-  - 
 
 homebrew_taps: []
 
@@ -89,6 +88,7 @@ homebrew_cask_apps:
   - bartender
   - 1password
   - 1password-cli
+  - macmediakeyforwarder
   - 
 
 # See `geerlingguy.mas` role documentation for usage instructions.
@@ -103,7 +103,8 @@ mas_installed_apps: [
   { "id": 1440147259, "name": "AdGuard for Safari" },
   { "id": 1546729687, "name": "Auto HD + FPS for Youtube" },
   { "id": 6738342400, "name": "Tampermonkey" },
-  { "id": 1568262835, "name": "Superagent" }
+  { "id": 1568262835, "name": "Superagent" },
+  { "id": 441258766, "name": "Magnet" }
 ]
 
 mas_email: ""
