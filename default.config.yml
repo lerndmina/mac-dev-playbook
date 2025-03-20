@@ -5,26 +5,26 @@ configure_osx: true
 
 # Set to 'true' to configure the Dock via dockutil.
 configure_dock: true
-dockitems_remove: []
-- Launchpad
-- TV
-- Podcasts
-- 'App Store'
-- Mail
-- Maps
-- Photos
-- FaceTime
-- Calendar
-- Cotacts
-- Notes
-- Reminders
-- Freeform
-- TV
-- News
-- Keynote
-- Numbers
-- Pages
-- 'System Settings'
+dockitems_remove: 
+  - Launchpad
+  - TV
+  - Podcasts
+  - 'App Store'
+  - Mail
+  - Maps
+  - Photos
+  - FaceTime
+  - Calendar
+  - Cotacts
+  - Notes
+  - Reminders
+  - Freeform
+  - TV
+  - News
+  - Keynote
+  - Numbers
+  - Pages
+  - 'System Settings'
 dockitems_persist: []
 # - name: "Sublime Text"
 #   path: "/Applications/Sublime Text.app/"
@@ -103,7 +103,20 @@ homebrew_cask_apps:
   - 
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
+mas_installed_apps: [
+  { "id": 1355679052, "name": "Dropover" },
+  { "id": 1569813296, "name": "1Password Safari" },
+  { "id": 441258766, "name": "Magnet" },
+  { "id": 409201541, "name": "Pages" },
+  { "id": 409183694, "name": "Keynote" },
+  { "id": 409203825, "name": "Numbers" },
+  { "id": 1447884454, "name": "Action Shortcuts" },
+  { "id": 1440147259, "name": "AdGuard for Safari" },
+  { "id": 1546729687, "name": "Auto HD + FPS for Youtube" },
+  { "id": 6738342400, "name": "Tampermonkey" },
+  { "id": 1568262835, "name": "Superagent" }
+]
+
 mas_email: ""
 mas_password: ""
 
